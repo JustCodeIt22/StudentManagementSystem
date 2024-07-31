@@ -12,7 +12,6 @@ import com.codemonk.sms.entity.Student;
 import com.codemonk.sms.service.StudentService;
 
 @Controller
-@CrossOrigin("http://localhost:5173/")
 public class StudentController {
 
 	private StudentService studentService;
